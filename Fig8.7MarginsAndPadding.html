@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+                <!--Nested <div>s with no margins or padding-->
+<html>
+    <head>
+        <title>Nested Elements</title>
+        <style type="text/css">
+            .outer { border: 2px solid black; 
+                     background-color: gray;    /* Fig 8.9: Added background-color gray */ 
+                     padding: 15px;               /* Added padding 15px and margin 40px */
+                     margin: 40px; 
+                    }
+            .inner { border: 2px dotted black; 
+                     background-color: white;   /* Fig 8.9: Added background-color white */
+                     padding: 15px;               /* Fig 8.8: Change padding property from 0 to 15px */    
+                     margin: 15px;                /* Fig 8.8: Change margin property from 0 to 15px */
+                     width: 50%;                  /* Fig 8.10 Shrink width by 50% to center text */
+                     margin-left: auto;           /* Fig 8.10 Add margin-left property to auto to center text */
+                     margin-right: auto;          /* Fig 8.10 Add margin-right property to auto to center text*/
+                    } 
+            body    { margin: 20px;               /* Fig.11 Add margin to <body> */
+                      border: 3px solid blue;   /* Fig.11 Add border to <body> */
+                      padding: 20px;              /* Fig.11 Add padding to <body> */
+                      background-color: yellow; /* Fig.11 Add background-color to <body> */
+                    }
+        </style>
+    </head>
+    <body>
+        <div class="outer">
+            Outer.
+        <div class="inner">
+            Friends, Romans, countrymen, lend me your ears;<br />
+            I come to bury Caesar, not to praise him.<br />
+            The evil that men do lives after them;<br />
+            The good is oft interred with their bones;<br />
+            So let it be with Caesar. The noble Brutus<br />
+        </div>
+        </div>
+    </body>
+</html>
+
+
